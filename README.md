@@ -47,7 +47,7 @@ a. Deploy Infrastructure with Terraform
 
 b. Deploy Application.
 
-Please first click "Deploy Infrastructure with Terraform" and you will see "Run workflow" button on the left hand side corner. Click this button to run the workflow. It will create the entire infrastructure required for the application to run. Once the infrastructure is created, please copy the ALB DNS.
+Please first click "Deploy Infrastructure with Terraform" and you will see "Run workflow" button on the right hand side corner. Click this button to run the workflow. It will create the entire infrastructure required for the application to run. Once the infrastructure is created, please copy the ALB DNS.
 
 After the infrastructure is created, then Run the "Deploy Application" workflow in the similar way. This will create everything, which is required for the application to work. Once this is done, please paste the ALB DNS in yor browser, it will show the "Hello World" Prompt to you.
 
