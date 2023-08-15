@@ -10,7 +10,7 @@ The principal codebase is reserved for "main.tf."
 
 Given the nature of this assignment, and its purpose to remain solely for assessment rather than deployment, I have refrained from introducing variable integration. Otherwise, the best practices for examples are using variables.tf and terraform.tfvars.
 
-#############################################
+################################################
 
 I'm providing you the access to this repo to evaluate the assignment. Below is how you can test the application:
 
