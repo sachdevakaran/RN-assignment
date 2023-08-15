@@ -10,6 +10,7 @@ The principal codebase is reserved for "main.tf."
 
 Given the nature of this assignment, and its purpose to remain solely for assessment rather than deployment, I have refrained from introducing variable integration. Otherwise, the best practices for examples are using variables.tf and terraform.tfvars.
 
+
 ################################################
 
 I'm providing you the access to this repo to evaluate the assignment. Below is how you can test the application:
@@ -22,7 +23,7 @@ Prerequisites:
    
     b. Inside application folder go to backend.tf and copy the s3 bucket name. Please create the bucket with this name.
    
-2. Please have the secret key and the secret access key of the IAM Admin user handy. You also need the AWS account Number as well.
+2. Please have the access key and the secret access key of the IAM Admin user handy. You also need the AWS account Number as well.
 
 How to Test:
 
@@ -32,7 +33,6 @@ How to Test:
    
 3. It will pop up three Secrets.
    
-5. 
     a. AWS_ACCESS_KEY_ID
    
     b. AWS_SECRET_ACCESS_KEY
@@ -51,4 +51,4 @@ Please first click "Deploy Infrastructure with Terraform" and you will see "Run 
 
 After the infrastructure is created, then Run the "Deploy Application" workflow in the similar way. This will create everything, which is required for the application to work. Once this is done, please paste the ALB DNS in yor browser, it will show the "Hello World" Prompt to you.
 
-If you have any question, please feel free to ask them.
+If you have any question, please feel free to ask.
