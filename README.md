@@ -31,7 +31,7 @@ How to Test:
    
 2. Please click Actions out of these three options.
    
-3. It will pop up three Secrets.
+3. It will pop up three GitHub Secrets.
    
     a. AWS_ACCESS_KEY_ID
    
@@ -39,7 +39,7 @@ How to Test:
    
     c. AWS_ACCOUNT_ID
    
-Please fill in this information and the secrets will remain encrypted throughout the pipeline. No one could actually see these secrets.
+Please fill in this information and the secrets will remain encrypted throughout the pipeline. No one could actually see these secrets.Please check the pipeline for more information as it is using the Envrionment Variables to fetch these secrets dynamically.
 
 4. Once done, Please Click Actions, which is just beside the "Pull Requests" button. Once you click "Actions" you will see two workflows on the left hand side.
 
